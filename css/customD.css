@@ -1,10 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 
 
+
 .text {
   position: relative;
   width: auto;
   font-size: 45px;
+}
+
+@media screen and (min-width: 601px) {
+  .text {
+    font-size: 45px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
 }
 
 p {
